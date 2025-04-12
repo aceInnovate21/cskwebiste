@@ -1,2 +1,21 @@
-# Local Netlify folder
-.netlify
+# Dependency directories
+node_modules/
+.env
+
+# Netlify functions cache & output
+.netlify/
+
+# MacOS
+.DS_Store
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# VS Code
+.vscode/
+
+# Optional - Build artifacts if you build assets
+dist/
+build/
